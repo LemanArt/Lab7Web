@@ -43,9 +43,10 @@ Ini adalah hasilnya'<P>'
 ![Gambar9](ss/9.png)
 
 Secara default fitur autoroute pada Codeiginiter sudah aktif.'<P>'
-Untuk mengubah status autoroute dapat mengubah nilai variabelnya. '<P>'
-Untuk menonaktifkan ubah nilai true menjadi false.'<P>'
-{$routes->setAutoRoute(true);} '<P>'
+Untuk mengubah status autoroute dapat mengubah nilai variabelnya. Untuk menonaktifkan ubah nilai true menjadi false.'<P>'
+```php
+  {$routes->setAutoRoute(true);}
+```
 Tambahkan method baru pada Controller Page seperti berikut. '<P>'
 public function tos()'<P>'
 {'<P>'
