@@ -47,11 +47,13 @@ Untuk mengubah status autoroute dapat mengubah nilai variabelnya. Untuk menonakt
 ```php
   {$routes->setAutoRoute(true);}
 ```
-Tambahkan method baru pada Controller Page seperti berikut. '<P>'
-public function tos()'<P>'
-{'<P>'
+Tambahkan method baru pada Controller Page seperti berikut. 
+```php
+public function tos()
+{
 echo "ini halaman Term of Services";'<P>'
-}'<P>'
+}
+```
 ![Gambar10](ss/10.png)
 
 Selanjutnya adalam membuat view untuk tampilan web agar lebih menarik. Buat file baru dengan
