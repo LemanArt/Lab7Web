@@ -665,8 +665,10 @@ akan dimuculkan halaman login.
 
 Fungsi Logout<br>
 Tambahkan method logout pada Controller User seperti berikut:
+```php
 public function logout()
 {
 session()->destroy();
 return redirect()->to('/user/login');
 }
+```
